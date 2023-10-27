@@ -37,7 +37,7 @@ export default function ClientLayout({
     <Flex as="main" className="protected">
       {/* <button onClick={handleSignout}>Signout</button> */}
       <SidebarWithHeader onClick={handleSignout} />
-      <Box width="calc(100% - 5rem)" ml="auto" bg="#f3f6f9">
+      <Box width="100%" bg="#f3f6f9">
         <Header />
         {children}
       </Box>
