@@ -1,0 +1,10 @@
+:root {
+  --primary-color: #1a2153;
+  --secondary-color: #3240a1;
+}
+
+html,
+body,
+main {
+  height: 100%;
+}
